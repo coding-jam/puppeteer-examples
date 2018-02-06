@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-example",
+  "version": "1.0.0",
+  "scripts": {
+    "pretest": "node src/index",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-jest": "22.1.0",
+    "babel-preset-env": "1.6.1",
+    "jest": "22.1.4",
+    "puppeteer": "1.0.0",
+    "standard": "10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "jest",
+      "expect",
+      "test",
+      "afterAll",
+      "beforeAll",
+      "describe"
+    ]
+  }
+}
