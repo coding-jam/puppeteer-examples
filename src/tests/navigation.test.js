@@ -9,7 +9,7 @@ const POST_TITLE_SELECTOR = 'div.post-title'
 let browser
 
 describe('navigation', () => {
-  test.only(`navigation should work`, async () => {
+  test(`navigation should work`, async () => {
     const page = await browser.newPage()
     await page.goto(URL)
     const href = await page.$eval(POST_LINK_SELECTOR, el => el.href)
