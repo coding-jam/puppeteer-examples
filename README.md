@@ -6,6 +6,5 @@ Puppeteer: Headless Chrome Node API - Examples
 [![Build Status](https://travis-ci.org/coding-jam/no-selenium-e2e-testing.svg?branch=master)](https://travis-ci.org/coding-jam/no-selenium-e2e-testing)
 ## Testing
 
-    cd puppeteer
     npm install
     npm test
